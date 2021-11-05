@@ -1,0 +1,57 @@
+/* Importing Type fase from Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,700&family=Roboto:wght@100&display=swap');
+
+html{
+    background-image: url(./img/brushed-alum.png);
+    background-color:#fcf7ed;
+
+}
+h1{
+   font-size: 2rem; 
+  
+}
+#columnas{
+ width:960px;
+ margin:0 auto; 
+ display:grid;
+ grid-template-columns: 17rem 25rem 25rem;
+ /* grid-gap: 1rem; */
+
+ grid-template-rows: 15rem 20rem 15rem 10rem;
+ 
+}
+#columnas .columna{
+    background-color: #FFF8DD;
+    padding:30px;
+    margin:2px;
+    border-radius: 10%;
+}
+#columnas .columna img{
+    width: 14rem;
+    border-radius: 5%;
+
+}
+#columnas .uno{
+    width: 206px;
+    background-color: rgba(0,0,0,0.0);
+}
+#columnas .dos{
+    grid-column: 2 / span 2
+}
+
+/* Body of the CV */
+.nombre{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 15px;
+}
+h3{
+    color:#FF7948;
+}
+.perfil{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+
+}

@@ -5,7 +5,7 @@
 html{
     background-image: url(./img/brushed-alum.png);
     background-color:#fcf7ed;
-
+    font-family: 'Poppins', sans-serif;
 }
 h1{
    font-size: 2rem; 
@@ -25,7 +25,8 @@ h1{
     background-color: #FFF8DD;
     padding:30px;
     margin:2px;
-    border-radius: 10%;
+    border-radius: 14px;
+    box-shadow: 1px 3px 2px 0 rgba(0,0,0,0.1);
 }
 #columnas .columna img{
     width: 14rem;
@@ -35,6 +36,7 @@ h1{
 #columnas .uno{
     width: 206px;
     background-color: rgba(0,0,0,0.0);
+    box-shadow: none;
 }
 #columnas .dos{
     grid-column: 2 / span 2
@@ -52,6 +54,23 @@ h3{
 .perfil{
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
-    font-weight:300;
+    font-weight:100px;
 
+}
+strong{
+    font-weight: 500px;
+}
+
+/* Reach - me info */
+#columnas .reach-me{
+    line-height: 10px;
+    font-size: 12px;
+    padding:40px;
+}
+#columnas .reach-me a{
+    text-decoration: none;
+    color: gray;
+}
+#columnas .reach-me a:hover{
+    color:#FF7948;
 }

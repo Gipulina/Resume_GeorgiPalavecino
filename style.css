@@ -23,7 +23,7 @@ h1{
 }
 #columnas .columna{
     background-color: #FFF8DD;
-    padding:30px;
+    padding: 16px 30px 30px 30px;
     margin:2px;
     border-radius: 14px;
     box-shadow: 1px 3px 2px 0 rgba(0,0,0,0.1);
@@ -73,4 +73,24 @@ strong{
 }
 #columnas .reach-me a:hover{
     color:#FF7948;
+}
+.edu-training{
+    line-height: 15px;
+}
+.edu-training strong{
+    line-height: 20px;
+}
+/* Career */
+#columnas .career{
+    grid-row: 2 / 4;
+    grid-column: 3 / 3; 
+    line-height: 15px;
+}
+h4{
+    color: darkgray;
+    line-height:3px;
+}
+h5{
+    font-size: 12px;
+    padding-bottom: 10px;
 }
